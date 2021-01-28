@@ -61,7 +61,7 @@
    .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
 
    .uppercase {text-transform: uppercase;}
-   .line-height {line-height: 1.5;}
+   .line-height {line-height: 2;}
 
    /* General typography */
 
@@ -71,12 +71,14 @@
      font-weight: 800;
      margin-bottom: 1rem;
      letter-spacing: 1px;
+     text-shadow: 2px 2px 8px white;
    }
 
    .banner h3 {
     margin-top: 1rem;
     font-weight: 400;
     letter-spacing: 3px;
+    text-shadow: 2px 2px 8px white;
       }
 
    h2, h3, h4, h5, h6 {
@@ -95,6 +97,9 @@
    p, ul {
       margin-bottom: 0.8rem;
    }
+
+
+
 
    .emphasis {
     font-size: 2.8rem;
@@ -399,16 +404,16 @@
 
    .banner,
    .banner-with-header {
-     background-image: url('/images/Copyright_Karen_9W3A8564.jpg');
+     background-image: url('/images/Copyright_Karen_9W3A1860_copy.jpg');
      background-size: cover;
-     background-position: 50% 57%;
+     background-position: 50% 65%;
      min-height: 100vh;
    }
 
 
 
    .banner-vision{
-     background-image: url('/images/Copyright_Karen_AW0I0186.jpg');
+     background-image: url('/images/photo1.jpg');
      background-size: cover;
      background-position: 50% 100%;
      min-height: 100vh;
@@ -445,7 +450,7 @@
    }
 
    .bg-image {
-     background-image: url('/images/adventure.jpg');
+     background-image: url('/images/photo2.jpg');
      background-size: cover;
      background-position: center;
      min-height: 10rem;
@@ -834,5 +839,5 @@
 
  /* This media query kicks into action at the gridlex xs breakpoint */
  @media(max-width:576px) {
-
+ 
  } /* end media query */
